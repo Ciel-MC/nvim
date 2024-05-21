@@ -325,9 +325,9 @@
 # IMPORTANT:
 # you may not alias to nvim
 # your alias may not conflict with your other packages.
-        # aliases = [ "vim" ];
-        viAlias = true;
-        vimAlias = true;
+        aliases = [ "vi" "vim" "cvim" ];
+        # viAlias = true;
+        # vimAlias = true;
 # caution: this option must be the same for all packages.
 # or at least, all packages that are to be installed simultaneously.
 # neovim-unwrapped = inputs.neovim-flake.packages.${pkgs.system}.neovim;
